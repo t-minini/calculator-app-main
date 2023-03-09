@@ -1,0 +1,66 @@
+:root {
+  --theme1-font1: #ffffff;
+  --theme1-font2: #434a59;
+  --theme1-background1: #3a4663;
+  --theme1-background2: #242d44;
+  --theme1-background3: #182034;
+  --theme1-button-selected1: #fffffe;
+  --theme1-button-selected2: #a2b2e1;
+  --theme1-button-selected3: #f96b5b;
+  --theme1-button1-background: #eae3dc;
+  --theme1-button1-shadow: #b3a497;
+  --theme1-button2-background: #647198;
+  --theme1-button2-shadow: #414e73;
+  --theme1-button3-background: #d03f2f;
+  --theme1-button3-shadow: #93261a;
+
+  --theme2-font1: #36362c;
+  --theme2-font2: #ffffff;
+  --theme2-background1: #e6e6e6;
+  --theme2-background2: #ffffff;
+  --theme2-background3: #d2cdcd;
+  --theme2-button-selected1: #ffffff;
+  --theme2-button-selected2: #62b5bc;
+  --theme2-button-selected3: #ff8a38;
+  --theme2-button1-background: #e5e4e1;
+  --theme2-button1-shadow: #a79e91;
+  --theme2-button2-background: #378187;
+  --theme2-button2-shadow: #1b6066;
+  --theme2-button3-background: #c85402;
+  --theme2-button3-shadow: #873901;
+
+  --theme3-font1: #ffe53d;
+  --theme3-font2: #ffffff;
+  --theme3-background1: #17062a;
+  --theme3-background2: #1e0936;
+  --theme3-button-selected1: #6c34ac;
+  --theme3-button-selected2: #8631af;
+  --theme3-button-selected3: #93fff8;
+  --theme3-button1-background: #331c4d;
+  --theme3-button1-shadow: #881c9e;
+  --theme3-button2-background: #56077c;
+  --theme3-button2-shadow: #be15f4;
+  --theme3-button3-background: #00ded0;
+  --theme3-button3-shadow: #6cf9f1;
+
+  --font-weight-bold: 700;
+}
+
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; /* base font size to 10px, to facilitate using REM unit */
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
